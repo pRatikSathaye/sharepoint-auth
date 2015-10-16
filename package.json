@@ -1,6 +1,6 @@
 {
   "name": "sharepoint-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sharepoint Authentication using REST API",
   "main": "sharepoint.js",
   "dependencies": {
