@@ -4,7 +4,7 @@ var request = require('./request').request,
   parser = require('xml2json'),
   path = require('path'),
   _ = require('lodash'),
-  saml = fs.readFileSync('config/saml.xml').toString();
+  saml = fs.readFileSync(__dirname + '/config/saml.xml').toString();
 
 
 var extractCookies = function(headers) {
